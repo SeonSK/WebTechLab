@@ -1,0 +1,225 @@
+*{
+    margin: 20px;
+}
+
+.title{
+    font-size: 30px;
+    padding-top: 50px;
+    height: 70px;
+    background: rgb(10, 0, 100);
+    color: white;
+    text-align: center;
+    
+}
+
+.FirstImage{
+    width: 97%;
+    height: 400px;
+    background-image: url(Karunya.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.AboutUs{
+    padding-top: 10px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.AboutUs.para{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.TripleImage{
+    margin: 0px;
+}
+
+.TripleImage .TripleImage1{
+    background-image: url('CSE.png');
+    background-repeat: no-repeat;
+    float: left;
+    background-size: contain;
+    width: 350px;
+    height: 350px;
+    margin-top: 30px;
+    margin-right: 0px;
+}
+
+.TripleImage .TripleImage1 .box1{
+    margin: 0px;
+    position: absolute;
+    width: 350px;
+    height: 40px;
+    background-color: #000000;
+    opacity: 0.6;
+}
+
+.TripleImage .TripleImage1 .text1{
+    text-align: center;
+    margin: 0px;
+    margin-top: 10px;
+    color: white;
+    font-size: large;
+    position: relative;
+}
+
+.TripleImage .TripleImage2{
+    background-image: url('library.png');
+    background-repeat: no-repeat;
+    float: left;
+    background-size: contain;
+    width: 350px;
+    height: 350px;
+    margin: 0px;
+    margin-top: 30px;
+}
+
+.TripleImage .TripleImage2 .box2 {
+    margin: 0px;
+    margin-top: 193.4px;
+    position: absolute;
+    width: 350px;
+    height: 40px;
+    background-color: #000000;
+    opacity: 0.6;
+}
+
+.TripleImage .TripleImage2 .text2 {
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+    font-size: large;
+    position: relative;
+}
+
+.TripleImage .TripleImage3{
+    background-image: url('biotech.png');
+    background-repeat: no-repeat;
+    float: left;
+    background-size: contain;
+    width: 350px;
+    height: 350px;
+    margin: 0px;
+    margin-top: 30px;
+}
+
+.TripleImage .TripleImage3 .box3 {
+    margin: 0px;
+    position: absolute;
+    width: 350px;
+    height: 40px;
+    background-color: #000000;
+    opacity: 0.6;
+}
+
+.TripleImage .TripleImage3 .text3 {
+    text-align: center;
+    margin: 0px;
+    margin-top: 10px;
+    color: white;
+    font-size: large;
+    position: relative;
+}
+
+.contain{
+    display: inline;
+}
+
+.contain .Campus {
+    height: 300px;
+    width: 530px;
+    margin-top: 330px;
+    margin-right: 500px;
+    background-color: antiquewhite;
+    position: absolute;
+}
+
+.contain .Campus .head{
+    text-align: center;
+    position: relative;
+}
+
+.contain .Campus .para {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.contain .ImageCampus{
+    background-image: url(Campus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    margin-left: 570px;
+    margin-top: 312px;
+    height: 300px;
+    width: 530px;
+}
+
+.container2 {
+    background-image: url(grass.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    margin-left: 20px;
+    height: 300px;
+    width: 530px;
+    position: relative;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+    width: 400px;
+    background-color: rgb(135, 135, 135);
+    margin: 0px;
+    
+    margin-left: 50px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+/* Full-width inputs */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container2 .info {
+    height: 300px;
+    width: 530px;
+    margin: 0px;
+    float: left;
+    margin-left: 550px;
+    background-color: antiquewhite;
+    position: absolute;
+}
+
+.container2 .info .head {
+    text-align: center;
+    position: relative;
+}
+
+.container2 .info .para {
+    font-size: 20px;
+    margin: 0px;
+}
