@@ -1,0 +1,114 @@
+*
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.space
+{
+    color: lightblue;
+}
+
+.titleBox
+{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(53, 177, 255);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    font-style: bold;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.title
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 121, 83);
+}
+
+.form
+{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+label
+{
+    font-size: 15px;
+    color: rgb(20, 112, 218);
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+input 
+{
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 300px;
+    height: 30px;
+    margin-top: 8px;
+}
+
+.findGradeButton
+{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.gradeDetailsText
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 202, 17);
+}
+
+.markDetails
+{
+    display: flex;
+    justify-content: center;
+}
+
+.gradeDetails
+{
+    display: flex;
+    justify-content: center;
+}
+
+.avgMarksBox
+{
+    width:200px;
+    height: 40px;
+    background-color: rgb(26, 201, 35);
+    text-align: center;
+    margin: 20px;
+    vertical-align: middle;
+    margin-right: 100px;
+}
+
+.gradeBox
+{
+    width:200px;
+    height: 40px;
+    background-color: rgb(26, 201, 35);
+    text-align: center;
+    margin: 20px;
+    vertical-align: middle;
+    margin-right: 100px;
+}
+
+.avgMarks
+{
+    font-size: 30px;
+}
+
+.result
+{
+    font-size: 30px;
+    color: red;
+}
