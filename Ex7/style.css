@@ -1,0 +1,72 @@
+.totalDiv
+{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 100px;
+}
+
+.boxDiv
+{
+    width: 600px;
+    height: 350px;
+    border: 3px solid black;
+    margin-top: 200px;
+}
+
+.headingBox
+{
+    width: 600px;
+    height: 100px;
+    background-color: rgb(6, 146, 202);
+    position: absolute;
+}
+
+.headingText
+{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+
+.headingTextSub
+{
+    color: white;
+    opacity: 0.6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+.formDiv
+{
+    margin-top: 130px;
+    margin-left: 20px;
+}
+
+input
+{
+    width: 250px;
+    height: 40px;
+    border: 2px solid black;
+    margin-top: 4px;
+}
+
+.output
+{
+    float: right;
+    margin-top: -150px;
+    margin-right: 100px;
+}
+
+.output1
+{
+    color: rgb(0, 133, 221);
+    font-size: 70px;
+}
+
+.output2
+{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
