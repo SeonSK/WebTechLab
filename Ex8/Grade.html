@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="angular.js" type="text/javascript"></script>
+
+    <script>
+        var app = angular.module('myApp', []);
+        app.controller('myCtrl', function($scope) {
+
+            $scope.avgMarks = 0;
+            
+            $scope.CalcGrade = function () {
+                $scope.avgMarks = ($scope.marks1 + $scope.marks2 + $scope.marks3 + $scope.marks4 + $scope.marks5) / 5;
+            };
+        });
+    </script>
+
+</head>
+
+<body ng-app="myApp" ng-controller="myCtrl">
+    <div class="titleBox">
+        MY COLLEGE
+    </div>
+
+    <div class="space"><br><br></div>
+
+    <div class="title">
+        GRADE EVALUATION
+    </div>
+
+    <br>
+
+    <div class="form">
+        <div>
+            <form>
+                <div>
+                    <label>Student Name:</label>
+                    <br>
+                    <input type="number" placeholder="Name">
+                </div>
+                <br>
+                <div>
+                    <label>Student RegNo</label>
+                    <br>
+                    <input type="number" placeholder="Reg No">
+                </div>
+                <br>
+                <div>
+                    <label>Course 1 Marks</label>
+                    <br>
+                    <input type="number" placeholder="Marks" ng-model="marks1">
+                </div>
+                <br>
+                <div>
+                    <label>Course 2 Marks</label>
+                    <br>
+                    <input type="number" placeholder="Marks" ng-model="marks2">
+                </div>
+                <br>
+                <div>
+                    <label>Course 3 Marks</label>
+                    <br>
+                    <input type="number" placeholder="Marks" ng-model="marks3">
+                </div>
+                <br>
+                <div>
+                    <label>Course 4 Marks</label>
+                    <br>
+                    <input type="number" placeholder="Marks" ng-model="marks4">
+                </div>
+                <br>
+                <div>
+                    <label>Course 5 Marks</label>
+                    <br>
+                    <input type="number" placeholder="Marks" ng-model="marks5">
+                </div>
+                <br>
+            </form>
+
+            <div class="findGradeButton" ng-click="CalcGrade()">
+                <button type="submit" class="d-flex mt-4 btn btn-primary w-50 justify-content-center">Find
+                    Grade</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="space">
+        <br>
+    </div>
+
+    <div class="gradeDetailsText">
+        Grade Details
+    </div>
+
+    <div class="markDetails">
+        <div class="avgMarksBox">
+            Average Marks
+        </div>
+
+        <div class="avgMarks" ng-bind="avgMarks">
+        </div>
+    </div>
+
+    <div class="gradeDetails">
+        <div class="gradeBox">
+            Grade
+        </div>
+        
+        <div class="grade" ng-bind="grade">
+        </div>
+    </div>
+
+    <div>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+
+</body>
+
+</html>

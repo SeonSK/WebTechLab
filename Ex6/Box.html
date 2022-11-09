@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+
+        
+    </head>
+    
+    <body>
+        <script src="script.js"></script>
+        
+        <div class="boxDiv">
+            <div id="box" class="box">
+                <div id="boxText" class="boxText">
+                    Hello World
+                </div>
+            </div>
+        </div>
+            
+        <div class="formDiv">
+            <form>
+                BackGround Color: <input type="color" id="bgColor" onchange="SetBgColor()">
+                <br>
+                <br>
+                Text Color: <input type="color" id="textColor" onchange="SetTextColor()">
+                <br>
+                <br>
+                <br>
+                <label for="textSize">Text Size:</label>
+                <select id="textSize" onchange="SetTextSize()">
+                    <option>20</option>
+                    <option>22</option>
+                    <option>24</option>
+                    <option>26</option>
+                </select>
+                <br>
+                <br>
+                <br>
+                Box Width: <input type="text" id="boxWidth" onkeyup="SetBoxWidth()">
+                <br>
+                <br>
+                <br>
+                Box Height: <input type="text" id="boxHeight" onkeyup="SetBoxHeight()">
+                <br>
+                <br>
+                <br>
+                Border Radius: <input type="range" min="1" max="100" 
+                                value="0" class="slider" id="borderRadius" 
+                                onchange="SetBorderRadius()">
+            </form>
+        </div>
+    </body>
+</html>
